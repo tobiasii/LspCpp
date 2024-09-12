@@ -6,7 +6,7 @@
 #include "LibLsp/lsp/lsDocumentUri.h"
 #include "LibLsp/lsp/lsCommand.h"
 
-#ifdef _WIN32
+#ifdef _MSC_VER
 #include <ppltasks.h>
 #endif
 
